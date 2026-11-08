@@ -1,0 +1,6 @@
+# Python 3.13-compatible dependency set
+# Keep pydantic/pydantic-core unpinned: aiogram resolves a compatible pair.
+aiogram>=3.20.0,<4.0.0
+aiohttp>=3.10.0
+python-dotenv>=1.0.1
+certifi>=2024.2.2
